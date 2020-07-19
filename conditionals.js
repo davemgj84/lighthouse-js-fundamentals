@@ -1,4 +1,6 @@
-// NOTE: I have commented out a lot of this code as I worked through each problem in this chapter, so when running it in node, it was more concise. 
+/* NOTE:  I have commented out this code as I worked through each problem in this chapter.
+          When running individual code tests, I simply remove the comment notations for each section to keep things clear in NODE.
+*/
 
 /* First section***
 
