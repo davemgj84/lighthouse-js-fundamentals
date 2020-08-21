@@ -35,3 +35,21 @@ const judgeVegetable = function (vegetables, metric) {
 
 // Honestly this one completely confused me and I am not sure if I really understand it still
 // even though I have solved it. I used some forums, and other resources to arrive at my answer. 
+
+
+/* Code from a fellow student, with a different approach using the Math.max() method. 
+
+const judgeVegetable = (vegetable, metrics) => {
+  let metricResult = [];
+  for (let i = 0; i < vegetable.length; i++) {
+    metricResult.push(vegetable[i][metrics]);
+  }
+  let highestscore = Math.max(…metricResult);
+  for (let i = 0; i < vegetable.length; i++) {
+    if (vegetable[i][metrics] === highestscore) {
+      return vegetable[i].submitter;
+    }
+  }
+}
+
+*/
